@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="683d1cbd-c371-4ecf-aaae-2d1b7f32778f" name="Default Changelist" comment="">
+    <list default="true" id="683d1cbd-c371-4ecf-aaae-2d1b7f32778f" name="Default Changelist" comment="データベース触るlist11追加">
       <change afterPath="$PROJECT_DIR$/list12/WriteCokkie.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/list12/bbs.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/list12/delete.php" afterDir="false" />
@@ -23,7 +23,7 @@
     <session id="258131867">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.12" value="1" />
@@ -37,7 +37,7 @@
           <entry key="gif" value="2" />
           <entry key="html" value="3" />
           <entry key="jpg" value="1" />
-          <entry key="md" value="1" />
+          <entry key="md" value="2" />
           <entry key="php" value="47" />
           <entry key="php5" value="28" />
           <entry key="png" value="3" />
@@ -49,7 +49,7 @@
         <counts>
           <entry key="HTML" value="3" />
           <entry key="Image" value="6" />
-          <entry key="Markdown" value="1" />
+          <entry key="Markdown" value="2" />
           <entry key="PHP" value="75" />
           <entry key="PLAIN_TEXT" value="9" />
           <entry key="XML" value="3" />
@@ -77,7 +77,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/list12/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
@@ -86,10 +86,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/list12/bbs.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-68">
+            <state relative-caret-position="-391">
               <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
@@ -178,7 +178,7 @@
             <path>
               <item name="PHPStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHPStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="list12" type="462c0819:PsiDirectoryNode" />
+              <item name="list11" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -266,7 +266,7 @@
       <workItem from="1533359283845" duration="37503000" />
       <workItem from="1533614812968" duration="34000" />
       <workItem from="1533614882451" duration="505000" />
-      <workItem from="1533615927318" duration="2719000" />
+      <workItem from="1533615927318" duration="2919000" />
     </task>
     <task id="LOCAL-00001" summary="PhpStormから">
       <created>1533305337804</created>
@@ -314,7 +314,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65774000" />
+    <option name="totallyTimeSpent" value="65974000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -326,8 +326,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-317" width="1936" height="1066" extended-state="7" />
-    <editor active="true" />
+    <frame x="1358" y="-317" width="1936" height="1066" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4983871" visible="true" weight="0.18496802" />
       <window_info id="Structure" order="1" sideWeight="0.5016129" side_tool="true" weight="0.24659607" />
@@ -634,6 +633,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/list12/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -644,15 +650,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/list12/bbs.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
+        <state relative-caret-position="-391">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list12/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
         </state>
       </provider>
     </entry>
