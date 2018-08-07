@@ -14,7 +14,8 @@ if (!preg_match("/^[0-9]{4}$/", $pass)) {
     header("Location: bbs.php");
     exit();
 }
-
+//名前をクッキーにセット
+setcookie("name", $name, time() + 60 * 60 * 24);
 //データベースに接続
 $dsn = "mysql:host=localhost;dbname=php;charset=utf8";
 $user = "phpuser";

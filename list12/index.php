@@ -8,6 +8,8 @@ $fp = fopen("info.txt", "r");
 </head>
 <body>
 <h1>PHPサークル交流サイト</h1>
+<a href="bbs.php">掲示板</a>
+<a href="logout.php">ログアウト</a>
 <h2>お知らせ</h2>
 <?php
 if ($fp) {

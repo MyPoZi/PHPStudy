@@ -1,4 +1,5 @@
 <?php
+include 'login.php';
 $num = 3;
 $dsn = "mysql:host=localhost;dbname=php;charset=utf8";
 $user = "phpuser";
@@ -32,8 +33,8 @@ try {
 </head>
 <body>
 <h1>掲示板</h1>
-<form action="write.php" method="post">
-    <p>名前<input type="text" name="name"></p>
+<form action="writeCokkie.php" method="post">
+    <p>名前<input type="text" name="name" value="<?php echo isset($_COOKIE['name']) ? $_COOKIE['name'] : "" ?>"></p>
     <p>タイトル:<input type="text" name="title"></p>
     <textarea name="body"></textarea>
     <p>削除パスワード(数字4文字):><input type="text" name="pass"></p>
@@ -49,7 +50,7 @@ while ($row = $stmt->fetch()):
     <p>タイトル:<?php echo $title ?></p>
     <p><?php echo nl2br($row["body"], false) ?></p>
     <p><?php echo $row["date"] ?></p>
-<!--    <p>--><?php //echo $row["pass"] ?><!--</p>-->
+
     <!--コメント削除機能-->
     <form action="delete.php" method="post">
         <input type="hidden" name="id" value="<?php echo $row['id']; ?>">
