@@ -46,9 +46,9 @@ while ($row = $stmt->fetch()):
     $title = $row["title"] ? $row["title"] : "(無題)";
 
     ?>
-    <p>名前:<?php echo $row["name"] ?></p>
-    <p>タイトル:<?php echo $title ?></p>
-    <p><?php echo nl2br($row["body"], false) ?></p>
+    <p>名前：<?php echo nl2br(htmlspecialchars($row["name"],ENT_QUOTES,"UTF-8").false); ?></p>
+    <p>タイトル：<?php echo nl2br(htmlspecialchars($title,ENT_QUOTES,"UTF-8").false); ?></p>
+    <?php echo nl2br(htmlspecialchars($row["body"],ENT_QUOTES,"UTF-8").false); ?>
     <p><?php echo $row["date"] ?></p>
 
     <!--コメント削除機能-->
