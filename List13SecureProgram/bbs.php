@@ -53,7 +53,7 @@ while ($row = $stmt->fetch()):
 
     <!--コメント削除機能-->
     <form action="delete.php" method="post">
-        <input type="hidden" name="id" value="<?php echo $row['id']; ?>">
+        <input type="hidden" name="id" value="<?php echo $row['id']; ?>"> <!--""で囲まないとXSSが可能になる-->
         削除パスワード:<input type="password" name="pass">
         <input type="submit" value="削除">
     </form>

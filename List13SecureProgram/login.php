@@ -25,7 +25,8 @@ if (isset($_SESSION["id"])) {
         $stmt->bindParam(":pass", sha1($_POST["password"]), PDO::PARAM_STR);
 
         $stmt->execute();
-
+        /* SQLインジェクション対策はデータ内のクォーテーションのエスケープ処理を行って、対応する閉じクォーテーションだと認識させないようにする。専用の関数もある*/
+        /*PDOの持つプリペアドステートメント機能を使い、bindParamメソッドでデータを渡してあげることで、PDOが自動的に適切なエスケープ処理を行ってくれる。SQLインジェクション対策*/
         if ($row = $stmt->fetch()) {
             //ユーザが存在していたので、セッションにユーザIDをセット
             $_SESSION["id"] = $row["id"];
