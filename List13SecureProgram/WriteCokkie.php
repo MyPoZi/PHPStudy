@@ -1,9 +1,11 @@
 <?php
+include "login.php";
 
 $name = $_POST["name"];
 $title = $_POST["title"];
 $body = $_POST["body"];
 $pass = $_POST["pass"];
+$token = $_POST["token"];
 
 if ($name == "" || $body == "") {
     header("Location: bbs.php");
@@ -11,6 +13,11 @@ if ($name == "" || $body == "") {
 }
 
 if (!preg_match("/^[0-9]{4}$/", $pass)) {
+    header("Location: bbs.php");
+    exit();
+}
+//CSRF対策:トークンが正しいかどうか
+if ($token != sha1(session_id())){
     header("Location: bbs.php");
     exit();
 }

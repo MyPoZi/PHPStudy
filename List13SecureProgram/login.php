@@ -30,6 +30,8 @@ if (isset($_SESSION["id"])) {
         if ($row = $stmt->fetch()) {
             //ユーザが存在していたので、セッションにユーザIDをセット
             $_SESSION["id"] = $row["id"];
+            //セッションID再作成、セッションハイジャック対策
+            session_regenerate_id(true);
             header("Location: index.php");
             exit();
         } else {

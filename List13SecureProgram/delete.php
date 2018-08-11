@@ -1,9 +1,17 @@
 <?php
+include "login.php";
 $id = intval($_POST["id"]);
 $pass = $_POST["pass"];
+$token = $_POST["token"];
 
 if ($id == "" || $pass == ""){
     header("Location: bbs.php");
+    exit();
+}
+
+//CSRF対策:トークンが正しいかどうか
+if ($token != sha1(session_id())){
+    header("location: bbs.php");
     exit();
 }
 

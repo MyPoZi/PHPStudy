@@ -39,12 +39,12 @@ try {
     <textarea name="body"></textarea>
     <p>削除パスワード(数字4文字):><input type="text" name="pass"></p>
     <p><input type="submit" value="書き込む"></p>
+    <input type="hidden" name="token" value="<?php echo sha1(session_id()); ?>"> <!--CSRF対策-->
 </form>
 <hr/>
 <?php
 while ($row = $stmt->fetch()):
     $title = $row["title"] ? $row["title"] : "(無題)";
-
     ?>
     <p>名前：<?php echo nl2br(htmlspecialchars($row["name"],ENT_QUOTES,"UTF-8").false); ?></p>
     <p>タイトル：<?php echo nl2br(htmlspecialchars($title,ENT_QUOTES,"UTF-8").false); ?></p>
@@ -53,10 +53,11 @@ while ($row = $stmt->fetch()):
 
     <!--コメント削除機能-->
     <form action="delete.php" method="post">
-        <input type="hidden" name="id" value="<?php echo $row['id']; ?>"> <!--""で囲まないとXSSが可能になる-->
+        <input type="hidden" name="id" value="<?php echo $row['id']; ?>"> <!--valueを""で囲まないとXSSが可能になる-->
         削除パスワード:<input type="password" name="pass">
         <input type="submit" value="削除">
-    </form>
+    <input type="hidden" name="token" value="<?php echo sha1(session_id()); ?>"> <!--CSRF対策-->
+</form>
     <hr/>
 <?php
 endwhile;
