@@ -42,5 +42,5 @@ switch (exif_imagetype($_FILES["file"]["tmp_name"])) {
 imagedestroy($image);
 imagedestroy($canvas);
 
-header("Location: upload.php")
+header("Location: Upload.php")
 ?>
