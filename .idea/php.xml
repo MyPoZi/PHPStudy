@@ -1,4 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/myapp/vendor/zendframework/zend-diactoros" />
+      <path value="$PROJECT_DIR$/myapp/vendor/cakephp/cakephp-codesniffer" />
+      <path value="$PROJECT_DIR$/myapp/vendor/robmorgan/phinx" />
+      <path value="$PROJECT_DIR$/myapp/vendor/mobiledetect/mobiledetectlib" />
+      <path value="$PROJECT_DIR$/myapp/vendor/cakephp/cakephp" />
+      <path value="$PROJECT_DIR$/myapp/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/myapp/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/myapp/vendor/cakephp/plugin-installer" />
+      <path value="$PROJECT_DIR$/myapp/vendor/cakephp/migrations" />
+      <path value="$PROJECT_DIR$/myapp/vendor/cakephp/bake" />
+      <path value="$PROJECT_DIR$/myapp/vendor/cakephp/chronos" />
+      <path value="$PROJECT_DIR$/myapp/vendor/cakephp/debug_kit" />
+      <path value="$PROJECT_DIR$/myapp/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/myapp/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/myapp/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/myapp/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/myapp/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/myapp/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/myapp/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/myapp/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/myapp/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/myapp/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/myapp/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/myapp/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/myapp/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/myapp/vendor/aptoma/twig-markdown" />
+      <path value="$PROJECT_DIR$/myapp/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/myapp/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/myapp/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/myapp/vendor/ajgl/breakpoint-twig-extension" />
+      <path value="$PROJECT_DIR$/myapp/vendor/seld/phar-utils" />
+      <path value="$PROJECT_DIR$/myapp/vendor/seld/jsonlint" />
+      <path value="$PROJECT_DIR$/myapp/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/myapp/vendor/umpirsky/twig-php-function" />
+      <path value="$PROJECT_DIR$/myapp/vendor/josegonzalez/dotenv" />
+      <path value="$PROJECT_DIR$/myapp/vendor/wyrihaximus/twig-view" />
+      <path value="$PROJECT_DIR$/myapp/vendor/jasny/twig-extensions" />
+      <path value="$PROJECT_DIR$/myapp/vendor/composer" />
+      <path value="$PROJECT_DIR$/myapp/vendor/m1/env" />
+      <path value="$PROJECT_DIR$/myapp/vendor/justinrainbow/json-schema" />
+      <path value="$PROJECT_DIR$/myapp/vendor/aura/intl" />
+      <path value="$PROJECT_DIR$/myapp/vendor/asm89/twig-cache-extension" />
+      <path value="$PROJECT_DIR$/myapp/vendor/psy/psysh" />
+    </include_path>
+  </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />
 </project>

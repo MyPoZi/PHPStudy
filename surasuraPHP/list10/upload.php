@@ -16,7 +16,7 @@ if (isset($_FILES["image"]) && is_uploaded_file($_FILES["image"]["tmp_name"])) {
             $new_name .= ".png";
             break;
         default:
-            header("Location: upload.php");
+            header("Location: Upload.php");
             exit();
     }
     if (move_uploaded_file($old_name, "album/" . $new_name)) {

@@ -1,7 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/ajgl/breakpoint-twig-extension" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/aptoma/twig-markdown" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/asm89/twig-cache-extension" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/aura/intl" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/cakephp/bake" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/cakephp/cakephp" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/cakephp/cakephp-codesniffer" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/cakephp/chronos" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/cakephp/debug_kit" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/cakephp/migrations" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/cakephp/plugin-installer" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/dnoegel/php-xdg-base-dir" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/jakub-onderka/php-console-color" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/jakub-onderka/php-console-highlighter" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/jasny/twig-extensions" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/jdorn/sql-formatter" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/josegonzalez/dotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/justinrainbow/json-schema" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/m1/env" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/mobiledetect/mobiledetectlib" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/psy/psysh" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/robmorgan/phinx" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/seld/jsonlint" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/seld/phar-utils" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/squizlabs/php_codesniffer" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/symfony/config" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/symfony/filesystem" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/symfony/polyfill-php72" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/twig/twig" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/umpirsky/twig-php-function" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/wyrihaximus/twig-view" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/zendframework/zend-diactoros" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
