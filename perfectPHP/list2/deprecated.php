@@ -12,5 +12,5 @@ print_r($tags2);
 echo 'テストプログラム終了',PHP_EOL;
 
 // PhpStormだとPHP5バージョンのsplit関数は打消し線で消される。PHP7なので、もちろん使えない。
-// TODO: 打消し線意味
+// TODO: 打消し線意味調べる
 
